@@ -1,4 +1,4 @@
-function sumOfNumbers(num1, num2) {
+function sumOfNumbersNtoM(num1, num2) {
     num1 = Number(num1);
     num2 = Number(num2);
 
@@ -8,4 +8,4 @@ function sumOfNumbers(num1, num2) {
     }
     return result;
 }
-console.log(sumOfNumbers('1', '5'));
+console.log(sumOfNumbersNtoM('1', '5'));
