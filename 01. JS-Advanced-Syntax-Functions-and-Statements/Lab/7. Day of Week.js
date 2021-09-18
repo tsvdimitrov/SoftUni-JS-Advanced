@@ -18,4 +18,4 @@ function dayOfWeek(input) {
         console.log(`error`)
     }
 }
-dayOfWeek(`Monday`);
+dayOfWeek('Monday');
