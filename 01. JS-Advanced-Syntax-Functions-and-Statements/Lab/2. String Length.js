@@ -9,5 +9,4 @@ function stringLength(firstArgument, secondArgument, thirdArgument) {
     console.log(Math.floor(sumLength / 3));
 }
 
-
 stringLength('chocolate', 'ice cream', 'cake');
