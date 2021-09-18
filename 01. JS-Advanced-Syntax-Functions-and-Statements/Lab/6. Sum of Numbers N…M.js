@@ -7,7 +7,5 @@ function sumOfNumbersNM(num1, num2) {
         result += i;
     }
     return result;
-
 }
-
 console.log(sumOfNumbersNM('1', '5'));
