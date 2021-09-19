@@ -1,4 +1,4 @@
-function wordUppercase(input) {
+function wordsUppercase(input) {
 
     let words = input
         .toUpperCase()
@@ -8,4 +8,4 @@ function wordUppercase(input) {
 
     console.log(words);
 }
-wordUppercase('Hi, how are you?');
+wordsUppercase('Hi, how are you?');
