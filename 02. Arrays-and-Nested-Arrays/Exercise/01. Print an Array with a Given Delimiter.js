@@ -1,8 +1,8 @@
-function arrWithDelimeter(arr, delimeter) {
+function delimeter(arr, delimeter) {
 
     return arr.join(delimeter);
 }
-console.log(arrWithDelimeter(['One',
+console.log(delimeter(['One',
     'Two',
     'Three',
     'Four',
