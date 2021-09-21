@@ -8,9 +8,9 @@ function element(arr, n) {
 
     return result;
 }
-console.log(element(['1',
-    '2',
-    '3',
+console.log(element(['5',
+    '20',
+    '31',
     '4',
-    '5'],
-    6));
+    '20'],
+    2));
