@@ -15,6 +15,12 @@ function cityTaxes(name, population, treasury) {
             this.treasury -= Math.ceil(this.treasury * percent / 100);
         }
     };
-    
+
     return city;
 }
+
+const city =
+    cityTaxes('Tortuga',
+        7000,
+        15000);
+console.log(city);
