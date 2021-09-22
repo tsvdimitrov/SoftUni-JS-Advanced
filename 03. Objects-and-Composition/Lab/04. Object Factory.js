@@ -1,5 +1,5 @@
 function factory(library, orders) {
-    
+
     return orders.map(compose);
 
     function compose(order) {
