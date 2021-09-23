@@ -1,4 +1,4 @@
-function solve(input) {
+function townsToJSON(input) {
 
     let obj = {};
 
@@ -23,7 +23,7 @@ function solve(input) {
         console.log(`  ${key}: ${value}`);
     }
 }
-solve(['Appricot : 20.4',
+townsToJSON(['Appricot : 20.4',
     'Fridge : 1500',
     'TV : 1499',
     'Deodorant : 10',
