@@ -1,8 +1,8 @@
-function lowerstPricesInCities(array) {
+function lowerstPricesInCities(input) {
 
     let obj = {};
-    
-    for (const line of array) {
+
+    for (const line of input) {
         let [town, product, price] = line.split(' | ');
         price = Number(price);
         obj[product] ? obj[product][town] = price : obj[product] = { [town]: price };
