@@ -1,8 +1,8 @@
 function solve() {
 
   let input = document.getElementById('text').value;
-  let currentCase = document.getElementById(`naming-convention`).value;
-  let result = document.getElementById(`result`);
+  let currentCase = document.getElementById('naming-convention').value;
+  let result = document.getElementById('result');
 
   let selector = {
     "Camel Case"(str) {
