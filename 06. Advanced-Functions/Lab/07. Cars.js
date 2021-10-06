@@ -1,33 +1,31 @@
-function cars(input) {
+function cars(arr) {
 
-    let cars = {};
-    let commandParser = {
-        create(carName, inherits, parentName) {
-            (cars[carName] = inherits ? Object.create(cars[parentName]) : {});
+    let objects = {};
+
+    let inner = {
+        create: (name, inherits, name2) => {
+            objects[name] = inherits ? Object.create(objects[name2]) : {};
         },
-        set(carName, key, value) {
-            cars[carName][key] = value;
+        set: (name, key, val) => {
+            objects[name][key] = val;
         },
-        print(carName) {
-            let output = [];
-            for (let element in cars[carName]) {
-                output.push(`${element}:${cars[carName][element]}`);
+        print: (name) => {
+            let bla = [];
+            for (const key in objects[name]) {
+                bla.push(`${key}:${objects[name][key]}`);
             }
-            console.log(output.join(', '));
-        },
+            console.log(bla.join(','));
+        }
     }
-
-    input.forEach(line => {
-        let [command, ...args] = line.split(' ');
-        commandParser[command](...args);
+    arr.forEach(el => {
+        const [command, name, key, val] = el.split(' ');
+        inner[command](name, key, val);
     });
 }
 
-cars([
-    'create c1',
+cars(['create c1',
     'create c2 inherit c1',
     'set c1 color red',
     'set c2 model new',
     'print c1',
-    'print c2'
-])
+    'print c2']);
