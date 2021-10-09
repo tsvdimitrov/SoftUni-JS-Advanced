@@ -21,8 +21,7 @@ function deckOfCards(cards) {
             face, suit, toString: () => {
                 return face + suit;
             }
-        };
-
+        }
     }
     cards.forEach(currCard => {
         let f = currCard.substring(0, currCard.length - 1);
