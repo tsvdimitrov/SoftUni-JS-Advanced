@@ -1,6 +1,5 @@
-const { expect } = require('chai');
-
 function createCalculator() {
+    
     let value = 0;
     return {
         add: function (num) { value += Number(num); },
@@ -8,3 +7,4 @@ function createCalculator() {
         get: function () { return value; }
     }
 }
+module.exports = createCalculator;
