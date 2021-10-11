@@ -20,11 +20,9 @@ describe('check is odd or even', () => {
     it('Type is string', () => {
         assert.isUndefined(isOddOrEven(1), "IT is undefined");
     });
-
     it('Is even', () => {
         assert.equal(isOddOrEven('aa'), 'even', "message even");
-    })
-
+    });
     it('Number input', () => {
         assert.isUndefined(isOddOrEven(5.55), 'It is undefined!');
     });
