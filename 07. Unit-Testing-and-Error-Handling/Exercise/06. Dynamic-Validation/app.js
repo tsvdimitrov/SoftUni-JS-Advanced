@@ -9,4 +9,4 @@ function validate() {
             input.removeAttribute('class');
         }
     });
-}
+} 
