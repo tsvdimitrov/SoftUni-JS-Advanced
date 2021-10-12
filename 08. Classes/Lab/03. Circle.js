@@ -14,6 +14,7 @@ class Circle {
         return Math.PI * (this.radius ** 2);
     }
 }
+
 let c = new Circle(2);
 console.log(`Radius: ${c.radius}`);
 console.log(`Diameter: ${c.diameter}`);
