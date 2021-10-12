@@ -124,13 +124,9 @@ describe('Tests for StringBuilder Class', () => {
         it('toString works correctly - 2', () => {
             const expected = '\n A \n\r B\t123   ';
             const obj = new StringBuilder();
-
             expected.split('').forEach(s => { obj.append(s); obj.prepend(s); });
-
             obj.insertAt('test', 4);
-
             obj.remove(2, 4);
-
             expect(obj.toString()).to.equal('  st21\tB \r\n A \n\n A \n\r B\t123   ');
         });
     });
