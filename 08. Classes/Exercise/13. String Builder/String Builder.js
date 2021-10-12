@@ -1,4 +1,5 @@
 class StringBuilder {
+
     constructor(string) {
         if (string !== undefined) {
             StringBuilder._vrfyParam(string);
@@ -32,7 +33,7 @@ class StringBuilder {
     }
 
     static _vrfyParam(param) {
-        if (typeof param !== 'string') throw new TypeError('Argument must be а string');
+        if (typeof param !== 'string') throw new TypeError('Argument must be a string');
     }
 
     toString() {
@@ -40,4 +41,4 @@ class StringBuilder {
     }
 }
 
-module.exports = StringBuilder
+module.exports = StringBuilder;
