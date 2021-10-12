@@ -16,7 +16,7 @@ function juiceFlavors(array) {
             bottles.set(fruit, bottles.get(fruit) + parseInt(acc[fruit] / 1000));
             acc[fruit] %= 1000;
         }
-        return acc
+        return acc;
     }, {});
 
     for (const [fruit, quantity] of bottles) {
