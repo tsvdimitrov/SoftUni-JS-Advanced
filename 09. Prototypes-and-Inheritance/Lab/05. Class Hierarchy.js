@@ -1,4 +1,4 @@
-function Hierarchy() {
+function classHierarchy() {
     class Figure {
         constructor(units = 'cm') {
             this.units = units;
