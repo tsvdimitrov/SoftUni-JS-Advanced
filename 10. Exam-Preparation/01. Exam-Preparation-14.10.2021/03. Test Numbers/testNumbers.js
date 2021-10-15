@@ -33,7 +33,7 @@ const testNumbers = {
 
         return arraySum / arr.length
     }
-};
+}
 
 
 
