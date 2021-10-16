@@ -1,5 +1,4 @@
 const numberOperations = require("./03. Number Operations_Resources");
-
 const { expect } = require('chai');
 
 describe('Begin Tests', function () {
