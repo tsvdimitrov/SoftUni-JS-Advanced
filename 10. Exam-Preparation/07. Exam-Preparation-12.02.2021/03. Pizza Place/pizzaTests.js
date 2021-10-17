@@ -1,7 +1,7 @@
 const { expect } = require('chai');
 const pizzUni = require(`./03.pizza`);
 
-describe('TESTS', function () {
+describe('tests', function () {
 
     describe('MakeAnOrderTests', function () {
         it('test with no Pizza Obj', function () {
