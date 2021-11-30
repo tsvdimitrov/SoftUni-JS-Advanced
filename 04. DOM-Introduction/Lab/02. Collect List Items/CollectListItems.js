@@ -1,9 +1,10 @@
 function extractText() {
+
     const items = document.getElementById('items').children;
 
     const result = [];
 
-    for (const item of Array.from(items)) {
+    for (const item of items) {
         result.push(item.textContent);
     }
 
