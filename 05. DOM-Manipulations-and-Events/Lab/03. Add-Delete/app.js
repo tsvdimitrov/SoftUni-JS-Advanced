@@ -18,5 +18,4 @@ function addItem() {
     newElement.appendChild(deleteItem)
     listInHTML.appendChild(newElement)
     input.value = '';
-    
 }
