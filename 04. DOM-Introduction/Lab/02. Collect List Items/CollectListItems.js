@@ -9,5 +9,4 @@ function extractText() {
     }
 
     document.getElementById('result').textContent = result.join('\n');
-
 }
