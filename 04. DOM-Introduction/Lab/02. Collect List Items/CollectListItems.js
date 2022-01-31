@@ -4,7 +4,7 @@ function extractText() {
 
     const result = [];
 
-    for (let item of items) {
+    for (let item of Array.from(items)) {
         result.push(item.textContent);
     }
 
