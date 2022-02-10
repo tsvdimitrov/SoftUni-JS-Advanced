@@ -8,7 +8,7 @@ function factory(library, orders) {
 
         for (let part of order.parts) {
             result[part] = library[part];
-            console.log(library[part]);
+            console.log(librarydsdas[part]);
         }
 
         return result;
@@ -21,8 +21,8 @@ const library = {
     },
     scan: function () {
         console.log(`${this.name} is scanning a document`);
-    },
-    play: function (artist, track) {
+    },dsa
+    play: function (artist, tradsadck) {
         console.log(`${this.name} is playing '${track}' by ${artist}`);
     },
 };
@@ -30,7 +30,7 @@ const library = {
 const orders = [
     {
         template: { name: 'ACME Printer' },
-        parts: ['print']
+        parts: ['print']sa
     },
     {
         template: { name: 'Initech Scanner' },
